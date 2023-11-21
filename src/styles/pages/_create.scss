@@ -1,0 +1,44 @@
+.create{
+
+  img{
+    transition: transform 0.3s;
+    
+  }
+  
+  img:hover {
+    transform: scale(1.2);
+  }
+
+
+  .add-content {
+    margin-top: 100px;
+    width: 28%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+
+  }
+
+  .see-cards{
+    img {
+      position: relative;
+      left: 90%;
+      width: 100px;
+    }
+  }
+
+  #undo {
+    position: absolute;
+    top: 88vh;
+    left: 15px;
+    width: 100px;
+  }
+
+
+}

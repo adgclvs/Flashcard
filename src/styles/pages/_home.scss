@@ -1,0 +1,37 @@
+.home {
+  ul {
+    margin-top: 50px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li{
+    width: 40%;
+    background-color: cyan;
+    text-align: center;
+  }
+  
+  li > h3{
+    margin: 30px;
+    font-size: 30px;
+   background-color: yellow;
+  }
+  
+  img{
+    transition: transform 0.3s;
+  }
+  
+  img:hover {
+    transform: scale(1.2);
+  }
+  
+  #undo {
+    position: absolute;
+    top: 88vh;
+    left: 15px;
+    size-adjust: 50px;
+    width: 100px;
+  }
+  
+}
